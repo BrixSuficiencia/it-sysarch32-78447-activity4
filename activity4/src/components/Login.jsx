@@ -41,6 +41,7 @@ function Login() {
     }
   };
 
+
   return (
     <div className="wrapper">
       <div className="header">
@@ -52,15 +53,15 @@ function Login() {
         </div>
       </div>
       <div className="main text-center">
-      <div className="text-center">
+        <div className="text-center">
           <label className="font-header font-poppins font-bold mb-3">
             Login
           </label>
         </div>
         <form onSubmit={handleSubmission}>
           <div className="input-group">
-          <label htmlFor="email" className="label-text">Email:</label>
-          <span className="tab"></span>
+            <label htmlFor="email" className="label-text">Email:</label>
+            <span className="tab"></span>
             <input
               type="email"
               name="email"
@@ -71,7 +72,7 @@ function Login() {
             />
           </div>
           <div className="input-group">
-          <label htmlFor="email" className="label-text">Password:</label>
+            <label htmlFor="password" className="label-text">Password:</label>
             <input
               type="password"
               name="password"
